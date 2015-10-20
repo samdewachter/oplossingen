@@ -14,10 +14,6 @@
 		}
 
 	}
-	else
-	{
-		echo "Submit is nog niet geset";
-	}
 ?>
 
 <!DOCTYPE html>
