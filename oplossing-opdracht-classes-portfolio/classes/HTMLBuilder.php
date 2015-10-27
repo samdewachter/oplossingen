@@ -31,6 +31,21 @@
 		{
 			include('html/' . $this->body . ".html");
 		}
+
+		public function findFiles($dir, $file)
+		{
+
+		}
+
+		private function buildJsLinks()
+		{
+
+		}
+
+		private function buildCssLinks()
+		{
+			
+		}
 	}
 
 ?>
