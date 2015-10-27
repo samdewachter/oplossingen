@@ -1,0 +1,20 @@
+<div class="artikels">
+
+			<?php foreach ($artikels as $key => $artikel): ?>
+
+				<article class="artikel">
+					<h1> <?php echo $artikel["title"] ?> </h1>
+					<p> <?php echo $artikel["text"] ?> </p>
+					<p> Kernwoorden:
+					<?php foreach ($artikel["tags"] as $value): ?>
+						<?= $value ?>
+					<?php endforeach ?>
+					</p>
+					<?php if (!$individueelArtikel): ?>
+						<a href="volledige-pagina.php?id=<?= $key ?>"><p>lees meer...</p></a>
+					<?php endif ?>
+				</article>
+
+			<?php endforeach ?>
+
+</div>
