@@ -1,0 +1,43 @@
+/* FONTS */
+@font-face {
+	font-family: 'JosefinSans';
+	src: url("fonts/JosefinSans-Regular.ttf");
+}
+
+/* HTML */
+html {
+	font-family: 'JosefinSans';
+}
+
+/* CONTAINER OF APPLICATION */
+.container {
+	width: 500px;
+	background-color: lightgrey;
+	padding: 30px;
+	margin: auto;
+}
+
+/* STYLE OF APPLICATION */
+p {
+	margin-left: 40px;
+}
+
+a {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.titel {
+	text-align: center;
+}
+
+/* STYLE OF LIST ELEMENTS */
+.notDone a, .green a:hover, .notdone{
+	text-decoration: none;
+	color: black;
+}
+
+.green a, .notDone a:hover, .green{
+	text-decoration: line-through;
+	color: green;
+}
