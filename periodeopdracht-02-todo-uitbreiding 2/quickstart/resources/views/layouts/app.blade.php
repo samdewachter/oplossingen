@@ -23,11 +23,11 @@
 						|
 						<a href="auth/login">Login</a>
 					@else
-						<a href="tasks/add">Maak een todo</a>
+						<a href="http://oplossingen.web-backend.local/periodeopdracht-02-todo-uitbreiding 2/quickstart/public/tasks/add">Maak een todo</a>
 						|
 						{{ Auth::user()->name }}
 						|
-						<a href="auth/logout">Logout</a>
+						<a href="http://oplossingen.web-backend.local/periodeopdracht-02-todo-uitbreiding 2/quickstart/public/auth/logout">Logout</a>
 					@endif
 
 				</div>

@@ -12,7 +12,7 @@
 
 					@include('common.errors')
 
-					<form action="http://oplossingen.web-backend.local/periodeopdracht-02-todo-uitbreiding 2/quickstart/public/auth/login" method="POST">
+					<form action="<?= $_SERVER['REQUEST_URI'] ?>" method="POST">
 						{{ csrf_field() }}
 
 						<div class="field">
